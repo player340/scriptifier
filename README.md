@@ -13,7 +13,9 @@ PyPI: `pip install scriptifier`<br/>
 from scriptifier import scriptifier
 
 def func_1(in):
+
     (...)
+
     return out
 
 scriptified_func_1 = scriptifier.run_as_script(func_1)
